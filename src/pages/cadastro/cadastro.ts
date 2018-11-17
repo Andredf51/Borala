@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AlertController } from 'ionic-angular';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
@@ -15,11 +16,19 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class CadastroPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad CadastroPage');
+  }
+  constructor(public alerCtrl: AlertController) { }
+
+  doAlert() {
+    let alert = this.alerCtrl.create({
+      title: 'Bem-Vindo Ao Borala!',
+      message: 'Cadastro Realizado Com Sucesso!',
+      buttons: ['Ok']
+    });
+    alert.present()
   }
 
 }
