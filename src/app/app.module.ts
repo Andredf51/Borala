@@ -14,6 +14,8 @@ import { IntroPageModule } from '../pages/intro/intro.module';
 import { LoginPageModule } from '../pages/login/login.module';
 import { IntroPage } from '../pages/intro/intro';
 import { LoginPage } from '../pages/login/login';
+import { CadastroPageModule } from '../pages/cadastro/cadastro.module';
+import { CadastroPage } from '../pages/cadastro/cadastro';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { LoginPage } from '../pages/login/login';
     BrowserModule,
     IonicModule.forRoot(MyApp),
     IntroPageModule,
-    LoginPageModule
+    LoginPageModule,
+    CadastroPageModule,
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -37,7 +40,8 @@ import { LoginPage } from '../pages/login/login';
     HomePage,
     TabsPage,
     IntroPage,
-    LoginPage
+    LoginPage,
+    CadastroPage,
   ],
   providers: [
     StatusBar,
