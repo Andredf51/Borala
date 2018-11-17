@@ -1,17 +1,41 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+      Contatos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
+  <img class="ImagemDuvida" src="../assets/imgs/duvida.jpg" alt="imagem de dúvida"/>
+
+  <h5>
+    <p>
+    Dúvidas, sugestões, reclamações ou elogios, entre em contato
+    conosco pelo formulário abaixo:
+    </p>
+  </h5>
+    
   <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
+
     <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+      <ion-label stacked>Nome:</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>  
+    
+    <ion-item>
+        <ion-label stacked>Email:</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+    <ion-item>
+        <ion-label stacked>Texto::</ion-label>
+        <ion-input type="text"></ion-input>
+    </ion-item>        
+    
+    </ion-list>
+    
+    <button ion-button full>ENVIAR</button>
+
+
 </ion-content>
