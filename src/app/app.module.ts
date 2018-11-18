@@ -7,6 +7,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { ProcurarPage } from '../pages/procurar/procurar';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -23,7 +24,8 @@ import { CadastroPage } from '../pages/cadastro/cadastro';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    ProcurarPage,
   ],
   imports: [
     BrowserModule,
@@ -42,6 +44,7 @@ import { CadastroPage } from '../pages/cadastro/cadastro';
     IntroPage,
     LoginPage,
     CadastroPage,
+    ProcurarPage,
   ],
   providers: [
     StatusBar,
