@@ -16,7 +16,6 @@ import { IntroPage } from '../pages/intro/intro';
 import { LoginPage } from '../pages/login/login';
 import { CadastroPageModule } from '../pages/cadastro/cadastro.module';
 import { CadastroPage } from '../pages/cadastro/cadastro';
-
 @NgModule({
   declarations: [
     MyApp,
