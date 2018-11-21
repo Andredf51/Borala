@@ -24,7 +24,7 @@ export class CadastroPage {
 
   doAlert() {
     let alert = this.alerCtrl.create({
-      title: 'Bem-Vindo Ao Borala!',
+      title: 'Bem-Vindo Ao BoraLá!',
       message: 'Cadastro Realizado Com Sucesso!',
       buttons: ['Ok']
     });
