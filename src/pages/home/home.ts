@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 import { CadastroPage } from '../cadastro/cadastro';
+import { FuncionaPage } from '../funciona/funciona';
 
 @Component({
   selector: 'page-home',
@@ -18,4 +19,9 @@ export class HomePage {
   goToCadastroPage(){
     this.navCtrl.push(CadastroPage)
   }
+
+  abrirFunciona(){
+    this.navCtrl.push(FuncionaPage)
+  }
+
 }
