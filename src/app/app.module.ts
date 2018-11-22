@@ -18,6 +18,8 @@ import { LoginPage } from '../pages/login/login';
 import { CadastroPageModule } from '../pages/cadastro/cadastro.module';
 import { CadastroPage } from '../pages/cadastro/cadastro';
 import { FuncionaPageModule } from '../pages/funciona/funciona.module';
+import { PagamentoPageModule } from '../pages/pagamento/pagamento.module';
+import { SegurancaPageModule } from '../pages/seguranca/seguranca.module';
 @NgModule({
   declarations: [
     MyApp,
@@ -34,6 +36,8 @@ import { FuncionaPageModule } from '../pages/funciona/funciona.module';
     LoginPageModule,
     CadastroPageModule,
     FuncionaPageModule,
+    PagamentoPageModule,
+    SegurancaPageModule,
   ],
   bootstrap: [IonicApp],
   entryComponents: [
